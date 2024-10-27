@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.web-icon{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.web-icon p{
+    display: inline;
+    font-size: 1.5em;
+    text-wrap: nowrap;
+}
+.web-icon img{
+    width: 5rem;
+}
+.web-icon span{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+ul li{
+    display:inline;
+    list-style: none;
+    margin: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    display:inline-block;
+    font-size: 2rem;
+    font-style: italic;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 600px;
+}
+.git{
+    background-color:black;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+.git a{
+    color: white;
+}
+.git .gitimg{ 
+   background-color: white;
+   border-radius: 50%;
+   margin: auto;
+   padding: 0;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 10rem;
+    gap: 10rem;
+}
+.main1 span{
+    display: block;
+}
+.main1-2{
+    width: 50%;
+}
+.benefit-1{
+    color: rgb(56, 56, 255);
+    font-size: 6rem;
+}
+.benefit-2{
+    margin-top: 3rem;
+    color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+}
+.benefit-3{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: rgb(255, 47, 82);
+    border-radius: 2rem;
+    width: 35%;
+    padding: 1rem;
+    font-style: italic;
+    text-wrap: nowrap;
+}
+.benefit-3 a{
+    text-decoration: none;
+    color: white;
+}
+.benefit-4{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+.benefit-4 span{
+    display: inline-block;
+}
+.num-blue{
+    color: rgb(56, 56, 255);
+}
+.home-hero{
+    width: 1400px;
+}
+
+.recommend{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 2rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+.reco{
+    background-color: white;
+    border-radius: 2rem;
+    width: 1200px;
+    height: 1000px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.material-symbols-outlined{
+    font-size: 15rem;
+    margin: 0 25rem;
+    opacity: 0.5;
+}
+.reco p{
+    text-align: center;
+}
+.reco img{
+  margin: 0 25rem;
+  width: 12rem;
+}
+.jesse-img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+.reco .p1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-2{
+    background:rgb(247, 247, 247);
+    margin-top: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature p{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 4rem;
+}
+.fea{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.fea img{
+    border: 4px solid rgb(219, 219, 219);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.opp1{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    margin-top: 15rem;
+    gap: 15rem;
+}
+.opp1 img{
+    width: 1000px;
+}
+.opp2 img{
+    width: 1000px;
+}
+.opp3 img{
+    width: 1000px;
+}
+.opp4 img{
+    width: 1000px;
+}
+.opp5 img{
+    width: 1000px;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.opp2{
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+    margin-top: 12rem;
+    gap: 15rem;
+}
+.opp3{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    margin-top: 12rem;
+    gap: 15rem;
+}
+.opp4{
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+    margin-top: 12rem;
+    gap: 15rem;
+}
+.opp5{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    margin-top: 12rem;
+    gap: 15rem;
+}
+.main-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 15rem;
+    padding-left: 10rem;
+    padding-bottom: 10rem;
+    margin-bottom: 15rem;
+    background-color: rgb(217, 222, 224);
+}
+.main-3a{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.main-3a div{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 200px;
+    width: 1000px;
+    font-size: 4rem;
+}
+.color-num{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(3, 119, 173);
+    width: 100px;
+    height: 100px;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    border-radius: 50%;   
+}
+.main-3b{
+    font-size: 5rem;
+}
+#how-work{
+    background-color: inherit;
+    font-size: 7rem;
+    font-weight: normal;
+    text-align: center;
+}
+.main-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-4-div{
+    display: block ;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 6rem;
+}
+.main-4 .pro{
+    color: white;
+    background-color: rgb(88, 88, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.main-4-p{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    opacity: 0.7;
+}
+.main4-seperate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:10rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.m4-seperate{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    border-radius: 2rem;
+    gap: 5rem;
+    padding: 3rem;
+}
+.m4-seperate div{
+    font-size: 2.5rem;
+}
+.m4-seperate p{
+    font-size: 2rem;
+    opacity: 0.7;
+}
+.button{
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+}
+.button a{
+    text-decoration: none;    
+}
+button{
+    background-color: rgb(252, 15, 74);
+    font-size: 2rem;
+    padding: 1.3rem;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+    font-style: italic;
+}
+.main-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    height: 1300px;
+}
+.main-5-head{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-top:10rem ;
+    gap: 65rem;
+    margin-bottom: 5rem;
+}
+.nav-arrow{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    gap: 2rem;
+}
+.nav-arrow p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    padding: 2rem;
+}
+.community{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.comm{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.main-6{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faqs{
+    margin-top: 10rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.ques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 3rem; 
+    border: 1px solid grey;
+    width: 1100px;
+    height: 100px;
+    font-size: 2rem;
+    text-indent: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+.questions{
+    width: 58rem;
+}
+.ques span{
+    font-size: 3rem;
+}
+.main-6-join{
+    font-size: 5rem;
+    color: rgb(71, 71, 231);
+    margin-top: 20rem;
+}
+.main-6-p{
+    font-size: 2rem;
+    margin-top: 5rem;
+    color:  rgb(97, 97, 97);
+}
+.main-benefit-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: rgb(255, 31, 68);
+    border-radius: 2rem;
+    width: 550px;
+    padding: 1rem;
+    font-style: italic;
+    text-wrap: nowrap;
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+}
+.main-benefit-3 a{
+    text-decoration: none;
+    color: white;
+}
+.main-7{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(82, 82, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem; 
+}
+.main-7-p{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.main-7-p1{
+    color: white;
+    font-size: 4rem;
+}
+.main-7-p2{
+    color: white;
+    font-size: 2rem;
+}
+.main-7-p button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: white;
+    border-radius: 2.5rem;
+    width: 650px;
+    padding: 2rem;
+    font-style: italic;
+    text-wrap: nowrap;
+    font-size: 2.5rem;
+}
+.main-7-p button a{
+    text-decoration: none;
+    color:rgb(82, 82, 231) ;
+}
+.main-7 img{
+    width: 850px;
+    height: 1000px;
+}
+.footer{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}

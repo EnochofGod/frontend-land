@@ -58,6 +58,7 @@ li a{
     margin: 2rem;
     margin-bottom: 2rem;
     margin-left: 600px;
+
 }
 .git{
     background-color:black;
@@ -300,7 +301,8 @@ li a{
     height: 100px;
     padding: 0.6rem;
     margin: 0.6rem;
-    border-radius: 50%;   
+    border-radius: 50%; 
+    color: white;  
 }
 .main-3b{
     font-size: 5rem;
